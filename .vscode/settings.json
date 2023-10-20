@@ -1,0 +1,173 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
+  },
+  "typescript.suggest.autoImports": true,
+  "material-icon-theme.activeIconPack": "nest",
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+
+  "editor.mouseWheelZoom": true,
+  "editor.renderLineHighlight": "gutter",
+  "breadcrumbs.enabled": true,
+  "explorer.compactFolders": false,
+  "codesnap.backgroundColor": "transparent",
+  "codesnap.transparentBackground": true,
+  "codesnap.boxShadow": "0 0 0",
+  "liveServer.settings.donotVerifyTags": true,
+  "window.titleBarStyle": "native", // "native" on Linux, "custom" on Windows
+  "window.menuBarVisibility": "toggle",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+
+  "editor.selectionClipboard": false, // Only for Linux
+  "javascript.suggest.autoImports": true,
+  "editor.suggestSelection": "first",
+
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  // Sets the Font size and family
+  "editor.fontFamily": "Fira Code",
+  "editor.fontWeight": "400",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 22,
+  "editor.fontLigatures": true,
+  // Editor indentation settings
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  // Auto applies editor rules for long lines of code
+  "editor.rulers": [80, 120],
+  // Increases terminal font size
+  "terminal.integrated.fontSize": 13,
+  // ESLint configuration
+  // "eslint.packageManager": "yarn",
+  "eslint.codeActionsOnSave.mode": "all",
+  // "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  // Emmet
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx" // Defines auto closing tags in JSX
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // Git settings
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  // Extensions
+  "extensions.ignoreRecommendations": false, // Do not ignore recommendations
+
+  // Pretier settings
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "eslint.format.enable": false,
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Format settings
+  "editor.formatOnSave": true,
+   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true,
+
+    "source.organizeImports": false
+  },
+
+  // Prettier settings
+  "prettier.semi": true,
+  "prettier.endOfLine": "lf",
+  "prettier.singleQuote": true,
+
+  // ESLint settings
+  "eslint.packageManager": "yarn",
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.associations": {
+    "*.tsx": "typescriptreact"
+  },
+
+  "editor.largeFileOptimizations": false,
+  "workbench.startupEditor": "none",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.defaultProfile.osx": "/bin/zsh"
+
+}
