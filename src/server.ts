@@ -33,4 +33,4 @@ app.use((err: Error, request: Request, response: Response) => {
 	})
 })
 
-app.listen(3333, () => console.log('server is running'))
+app.listen(3333, () => console.log('Server is running'))
