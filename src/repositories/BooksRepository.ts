@@ -14,6 +14,12 @@ interface IBookPaginate {
 	page: number
 	size: number
 }
+interface IUpdate {
+	rate: number
+	dateRead: Date
+	read: boolean
+	id: string
+}
 class BooksRepository {
 	create({
 		name,
@@ -54,6 +60,10 @@ class BooksRepository {
 	async delete(id: string) {
 		const result = await Books.findByIdAndRemove(id)
 		return result
+	}
+
+	update({ rate, dateRead, read, id }: IUpdate) {
+		return Books.findById(id).updateMany({ rate, dateRead, read }).exec()
 	}
 }
 
